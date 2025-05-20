@@ -1,0 +1,22 @@
+{
+  "aeris": {
+    "name": "Aeris",
+    "image": "images/aeris.jpg",
+    "info": {
+      "race": "Elf",
+      "class": "Mage"
+    },
+    "htmlFile": "page_content/characters/aeris.html",
+    "type": "character"
+  },
+  "kael": {
+    "name": "Kael",
+    "image": "images/kael.jpg",
+    "info": {
+      "race": "Human",
+      "class": "Knight"
+    },
+    "htmlFile": "page_content/characters/kael.html",
+    "type": "character"
+  }
+}
