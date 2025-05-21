@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search);
 const slug = params.get("slug");
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('partials/navbar.html')
+  fetch('/pages/navbar.html')
     .then(res => res.text())
     .then(html => {
       document.getElementById('navbar').innerHTML = html;
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-fetch("data/characters.json")
+fetch("../data/characters.json")
   .then(res => res.json())
   .then(data => {
     const char = data[slug];
@@ -28,7 +28,7 @@ fetch("data/characters.json")
       infoBox.appendChild(li);
     }
 
-    return fetch(char.htmlFile);
+    return fetch('../' + char.htmlFile);
   })
   .then(res => res.text())
   .then(html => {

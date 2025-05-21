@@ -1,6 +1,6 @@
 // characters.js
 
-fetch('data/characters.json')
+fetch('../data/characters.json')
   .then(res => res.json())
   .then(data => {
     const list = document.getElementById('character-list');
