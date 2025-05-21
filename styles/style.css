@@ -1,23 +1,33 @@
+body{
+  margin: 0;
+}
+
 .navbar{
-    background-color: antiquewhite;
+    background-color: #abb8e7;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* horizontal centering */
+    align-items: center;      /* vertical centering */
+    font-size: 25px;
+}
+
+.navbar a {
+  margin-right: 10px; /* adds space to the right of each link */
+  margin-left: 10px; /* adds space to the right of each link */
 }
 
 .article-info-box {
-  background-color: rgb(107, 78, 78);
-  width: 350px;
+  background-color: #abb8e7;
+  width: 40%;
   float: right;
   text-align: center;
 }
 
 .character-portrait-image {
-  width: 300px;
-}
-
-@media only screen and (max-width: 767px) {
-  .article-info-box {
-      float: none;
-      margin: 0 auto;
-  }
+  max-width: 90%;
+  height: auto;
+  display: inline-block; /* optional but helps remove inline spacing */
 }
 
 /* Background overlay layer */
@@ -49,5 +59,13 @@
 @media only screen and (max-width: 767px) {
   .page-container {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .article-info-box {
+      float: none;
+      margin: 0 auto;
+      width: 100%;
   }
 }

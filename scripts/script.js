@@ -18,6 +18,7 @@ fetch("../data/characters.json")
     const char = data[slug];
     if (!char) return;
 
+    document.getElementById("char-name-header").textContent = char.name;
     document.getElementById("char-name").textContent = char.name;
     document.getElementById("char-img").src = char.image;
 
