@@ -8,3 +8,6 @@ find a way to ensure slugs are always unique - perhaps fine if true for just the
 
 Add another type of data - factions for example - factions.json, factions.html, faction.html
 
+narrow down all pages and give them a background on the sides with an overlay
+
+perhaps a collapsable menus on the left side of each page in which you can get a folder structure view of all site data and articles
