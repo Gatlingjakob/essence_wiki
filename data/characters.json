@@ -1,22 +1,40 @@
 {
-  "aeris": {
-    "name": "Aeris",
-    "image": "images/aeris.jpg",
+  "amaelia": {
+    "name": "Amaelia",
+    "image": "/media/images/character_portraits/amaelia_character_portrait.png",
     "info": {
-      "race": "Elf",
-      "class": "Mage"
+      "pronouns": "She/They",
+      "aliases": ["Ames", "The Short One", "The Girl Who Delved Too Deep"],
+      "relatives": ["Iomaea", "Spoiler: The Mistwalker", "Spoiler: Savia"],
+      "allegiance": ["The Gang"],
+      "birthplace": "Unknown",
+      "age": "26",
+      "eye_color": "Grey",
+      "species": "Human",
+      "mastery": ["Healing", "Dark Arts", "Logic", "Dialectic", "Ethics"],
+      "color_pie": ["W", "U", "B"]
     },
-    "htmlFile": "page_content/characters/aeris.html",
+    "quote": "Iomaea is my sister from another mister lmao etc",
+    "htmlFile": "page_content/characters/amaelia.html",
     "type": "character"
   },
-  "kael": {
-    "name": "Kael",
-    "image": "images/kael.jpg",
+  "iomaea": {
+    "name": "Iomaea",
+    "image": "/media/images/character_portraits/iomaea_character_portrait.png",
     "info": {
-      "race": "Human",
-      "class": "Knight"
+      "pronouns": "She/Her",
+      "aliases": ["Ames", "The Short One", "The Girl Who Delved Too Deep"],
+      "relatives": ["Iomaea", "Spoiler: The Mistwalker", "Spoiler: Savia"],
+      "allegiance": ["The Gang"],
+      "birthplace": "Unknown",
+      "age": "26",
+      "eye_color": "Grey",
+      "species": "Human",
+      "mastery": ["Healing", "Dark Arts", "Logic", "Dialectic", "Ethics"],
+      "color_pie": ["W", "U", "B"]
     },
-    "htmlFile": "page_content/characters/kael.html",
+    "quote": "Iomaea is my sister from another mister lmao etc",
+    "htmlFile": "page_content/characters/iomaea.html",
     "type": "character"
   }
 }
