@@ -9,9 +9,9 @@ fetch('../data/characters.json')
     Object.entries(data)
       .filter(([slug, item]) => item.type === 'character')
       .forEach(([slug, char]) => {
-        const li = document.createElement('li');
-        li.innerHTML = `<a href="character.html?slug=${slug}">${char.name}</a>`;
-        list.appendChild(li);
+        const p = document.createElement('p');
+        p.innerHTML = `<a href="character.html?slug=${slug}">${char.name}</a>`;
+        list.appendChild(p);
       });
   })
   .catch(err => {

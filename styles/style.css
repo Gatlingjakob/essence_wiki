@@ -3,7 +3,7 @@ body{
 }
 
 .navbar{
-    background-color: #abb8e7;
+    background-color: #5e6da2;
     height: 100px;
     text-align: center;
     display: flex;
@@ -15,6 +15,13 @@ body{
 .navbar a {
   margin-right: 10px; /* adds space to the right of each link */
   margin-left: 10px; /* adds space to the right of each link */
+  
+    color: #d6dbeb;
+}
+
+.character-name-header{
+  color: #d6dbeb;
+  font-size: 40px;
 }
 
 .article-info-box {
@@ -24,10 +31,26 @@ body{
   text-align: center;
 }
 
+.character-portrait-name{
+  background-color: #5e6da2;
+  margin: 0;
+  color: #d6dbeb;
+  padding: 10px 0px 10px 0px;
+}
+
 .character-portrait-image {
   max-width: 90%;
   height: auto;
   display: inline-block; /* optional but helps remove inline spacing */
+}
+
+.character-info p{
+  margin: 0;
+  color: #282c3b;
+}
+
+.article-content-container{
+  color: #edd7e5
 }
 
 /* Background overlay layer */
@@ -55,6 +78,24 @@ body{
   background-color: rgba(98, 97, 114, 0.95);
 }
 
+.table-of-contents-container{
+  display: inline-block;
+}
+
+.table-of-contents-header{
+  background-color: #5e6da2;
+  margin: 0;
+  color: #d6dbeb;
+  padding: 10px;
+}
+
+.table-of-contents-list{
+  background-color: #d6dbeb;
+  margin: 0;
+  color: #5e6da2;
+  padding: 10px;
+}
+
 /* Responsive */
 @media only screen and (max-width: 767px) {
   .page-container {
@@ -67,5 +108,11 @@ body{
       float: none;
       margin: 0 auto;
       width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .character-name-header {
+    display: none;
   }
 }
