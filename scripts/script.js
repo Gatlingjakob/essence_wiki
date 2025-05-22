@@ -5,10 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const currentPath = window.location.pathname;
   const isInPages = currentPath.includes('/pages/');
 
-  const navbarPath = isInPages ? '../pages/navbar.html' : 'pages/navbar.html';
+  // Load navbar:
+  // If we're in /pages/, navbar is ../pages/navbar.html
+  // If root, navbar is ./navbar.html
+  const navbarPath = isInPages ? '../pages/navbar.html' : 'navbar.html';
+
+  // Load characters.json with correct relative path:
+  // In /pages/, ../data/characters.json
+  // In root, data/characters.json
   const charactersJsonPath = isInPages ? '../data/characters.json' : 'data/characters.json';
 
-  // Load navbar
   fetch(navbarPath)
     .then(res => res.text())
     .then(html => {
@@ -18,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error('Failed to load navbar:', err);
     });
 
-  // Load characters.json
   fetch(charactersJsonPath)
     .then(res => res.json())
     .then(data => {
@@ -36,14 +41,18 @@ document.addEventListener('DOMContentLoaded', () => {
         infoBox.appendChild(p);
       }
 
+      // Load character HTML content with correct path:
+      // char.htmlFile might be 'pages/char.html' or just 'char.html'
       const articleHtmlPath = isInPages ? `../${char.htmlFile}` : char.htmlFile;
       return fetch(articleHtmlPath);
     })
     .then(res => res.text())
     .then(html => {
       const container = document.getElementById("article-container");
-      container.innerHTML = html;
-      generateTOC(container);
+      if (container) {
+        container.innerHTML = html;
+        generateTOC(container);
+      }
     })
     .catch(err => {
       console.error('Failed to load character content:', err);
