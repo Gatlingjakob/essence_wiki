@@ -2,7 +2,7 @@ body{
   margin: 0;
 }
 
-.navbar{
+.navbar, .navbar-index{
     background-color: #5e6da2;
     height: 100px;
     text-align: center;
