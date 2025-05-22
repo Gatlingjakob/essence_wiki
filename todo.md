@@ -4,12 +4,20 @@
 
 prettify the key-names from json ("eye_color" is presented as "Eye Color")
 
+separate overlay from background
+
+generally adjust margin, padding, border, font type, take insp from funger and wikipedia
+
 full image view popup thingy on portraits (and later on other big images)
 
 - Make a ESSENCE banner/logo thing
 - Make an actual logo for the franchise - like an eye or brain or some mystical symbol that feels near to your heart
 
 - design top menu (put mini versions of the logo on both sides of the menu)
+
+- dropdowns on top menu - only after youve made subcategories i suppose
+
+- on the top right a little audio player where you can toggle bg music - leave off as default!
 
 - Add another type of data - factions for example - factions.json, factions.html, faction.html
 

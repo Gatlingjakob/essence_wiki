@@ -22,6 +22,7 @@ body{
 .character-name-header{
   color: #d6dbeb;
   font-size: 40px;
+  margin: 0px 0px 20px 0px;
 }
 
 .article-info-box {
@@ -29,6 +30,13 @@ body{
   width: 40%;
   float: right;
   text-align: center;
+  margin-left: 15px;
+}
+
+.character-info-box{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: 1px solid #5e6da2;
 }
 
 .character-portrait-name{
@@ -94,6 +102,7 @@ body{
   margin: 0;
   color: #5e6da2;
   padding: 10px;
+  border: 1px solid #5e6da2;
 }
 
 /* Responsive */
