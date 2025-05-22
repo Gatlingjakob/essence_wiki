@@ -1,7 +1,7 @@
 {
   "amaelia": {
     "name": "Amaelia",
-    "image": "/media/images/character_portraits/amaelia_character_portrait.png",
+    "image": "../media/images/character_portraits/amaelia_character_portrait.png",
     "info": {
       "pronouns": "She/They",
       "aliases": ["Ames", "The Short One", "The Girl Who Delved Too Deep"],
@@ -20,7 +20,7 @@
   },
   "iomaea": {
     "name": "Iomaea",
-    "image": "/media/images/character_portraits/iomaea_character_portrait.png",
+    "image": "../media/images/character_portraits/iomaea_character_portrait.png",
     "info": {
       "pronouns": "She/Her",
       "aliases": ["Ames", "The Short One", "The Girl Who Delved Too Deep"],
