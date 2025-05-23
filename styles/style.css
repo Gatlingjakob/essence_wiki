@@ -25,6 +25,19 @@ body{
   margin: 0px 0px 20px 0px;
 }
 
+.character-quote{
+  color: #d6dbeb;
+  font-size: 15px;
+  margin: 20px 0px 20px 0px;
+  font-style: italic;
+}
+
+.character-quote-name{
+  color: #d6dbeb;
+  font-size: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
 .article-info-box {
   background-color: #abb8e7;
   width: 40%;

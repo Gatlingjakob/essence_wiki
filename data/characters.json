@@ -27,14 +27,147 @@
       "relatives": ["Amaelia", "Spoiler: Isamaea", "Iomaea's dad"],
       "allegiance": ["The Gang"],
       "birthplace": "The Badlands",
-      "age": "26",
-      "eye_color": "Dark Green",
+      "age": "25",
+      "eye_color": "Deep Green",
       "species": "Human",
       "mastery": ["Berserking", "Two-Handed Weapons", "Zingers", "Responsibility", "Revolution"],
       "color_pie": ["W", "R"]
     },
     "quote": "Violence isn't always the only answer - except when it is.",
     "htmlFile": "page_content/characters/iomaea.html",
+    "type": "character"
+  },
+  "berulf": {
+    "name": "Berulf",
+    "image": "../media/images/character_portraits/berulf_character_portrait.png",
+    "info": {
+      "pronouns": "He/Him",
+      "aliases": ["Tree Hugger", "Wolfy", "Shapeshifter"],
+      "relatives": ["Druid Dad", "Some Squirrel", "Some Fox", "A Bunch of Critters he grew up with"],
+      "allegiance": ["The Gang"],
+      "birthplace": "Forest of the Druids",
+      "age": "33",
+      "eye_color": "Unknown",
+      "species": "Human",
+      "mastery": ["Shapeshifting", "Melee Combat", "Zingers", "Tracking", "Herbalism", "Existence", "Nature"],
+      "color_pie": ["G"]
+    },
+    "quote": "There are things that simply exist, regardless of our ability to perceive them. I seek to protect those things, so that we can commune with each other through which what is mutual to all of us",
+    "htmlFile": "page_content/characters/berulf.html",
+    "type": "character"
+  },
+  "asbomer": {
+    "name": "Asbomer",
+    "image": "../media/images/character_portraits/asbomer_character_portrait.png",
+    "info": {
+      "pronouns": "He/Him",
+      "aliases": ["Lord of the Lands", "The King", "Usurper of Reality", "The Reclusive Royalty", "Master of Puppets"],
+      "relatives": ["Unknown"],
+      "allegiance": ["The Monarchy", "The Orthodoxy", "The Inquisition"],
+      "birthplace": "Unknown",
+      "age": "148",
+      "eye_color": "Black as the void itself",
+      "species": "Human",
+      "mastery": ["Mind Control", "Politics", "Narrative", "Propaganda", "Aristocracy"],
+      "color_pie": ["W", "U", "B"]
+    },
+    "quote": "You never know what someone might do with information you don't want them to have.",
+    "htmlFile": "page_content/characters/asbomer.html",
+    "type": "character"
+  },
+  "illandra": {
+    "name": "Illandra",
+    "image": "../media/images/character_portraits/illandra_character_portrait.png",
+    "info": {
+      "pronouns": "She/Her",
+      "aliases": ["The One and Only Illy Shears", "The Shearhead (of the Inquisition)", "The Widow"],
+      "relatives": ["Unknown"],
+      "allegiance": ["The Inquisition", "The Orthodoxy", "The Monarchy"],
+      "birthplace": "Unknown",
+      "age": "27",
+      "eye_color": "Burgundy Red",
+      "species": "Human",
+      "mastery": ["Slashing", "Bootlicking", "Retribution", "Loyalty", "Assassination"],
+      "color_pie": ["W", "B", "R"]
+    },
+    "quote": "What everyone needs to understand, is that some people are just better than others. Sometimes they just need a little persuasion before they can reach this conclusion for themself. Those people also serve an important purpose to society - let's just call them \"living, breathing examples\" of that fact - the unlucky few of them still are, that is.",
+    "htmlFile": "page_content/characters/illandra.html",
+    "type": "character"
+  },
+  "laenwyn": {
+    "name": "Laenwyn",
+    "image": "../media/images/character_portraits/laenwyn_character_portrait.png",
+    "info": {
+      "pronouns": "He/Him",
+      "aliases": ["Arrow Tongue", "Smartass", "Cupid"],
+      "relatives": ["Aristocrats of the Academia"],
+      "allegiance": ["The Gang"],
+      "birthplace": "College of Sorcery",
+      "age": "22",
+      "eye_color": "Lapis Blue",
+      "species": "Elf",
+      "mastery": ["Marksmanship", "Sorcery", "Bargaining", "Debate", "Charisma"],
+      "color_pie": ["W", "U"]
+    },
+    "quote": "Everything is up for debate; however, whether you can beat me in one is not.",
+    "htmlFile": "page_content/characters/laenwyn.html",
+    "type": "character"
+  },
+  "savia": {
+    "name": "Savia",
+    "image": "../media/images/character_portraits/savia_character_portrait.png",
+    "info": {
+      "pronouns": "She/Her",
+      "aliases": ["Eternally Betrothed", "The Queen", "The Overseer"],
+      "relatives": ["Unknown"],
+      "allegiance": ["The Monarchy"],
+      "birthplace": "The Hamlets",
+      "age": "57",
+      "eye_color": "Grey",
+      "species": "Elf",
+      "mastery": ["Care", "Empathy", "De-escalation", "Resilience", "Painting"],
+      "color_pie": ["W", "B"]
+    },
+    "quote": "Some things in life just happen to us, whether we want them to or not. Sometimes it's better to just go along with those things - otherwise they might end up hurting you.",
+    "htmlFile": "page_content/characters/savia.html",
+    "type": "character"
+  },
+  "the_royal_bulwark": {
+    "name": "The Royal Bulwark",
+    "image": "../media/images/character_portraits/the_royal_bulwark_character_portrait.png",
+    "info": {
+      "pronouns": "Unknown",
+      "aliases": ["Guardian of the Throne", "Spoiler: Isamaea", "Spoiler: The Berserker Queen"],
+      "relatives": ["Spoiler: Iomaea"],
+      "allegiance": ["The Monarchy"],
+      "birthplace": "Spoiler: The Badlands",
+      "age": "Unknown",
+      "eye_color": "Unknown",
+      "species": "Human",
+      "mastery": ["Care", "Empathy", "De-escalation", "Resilience", "Painting"],
+      "color_pie": ["B"]
+    },
+    "quote": "...",
+    "htmlFile": "page_content/characters/the_royal_bulwark.html",
+    "type": "character"
+  },
+  "zedd": {
+    "name": "Zedd",
+    "image": "../media/images/character_portraits/zedd_character_portrait.png",
+    "info": {
+      "pronouns": "They/Them",
+      "aliases": ["Circuitmancer", "Silent One", "Z"],
+      "relatives": ["Spoiler: The Machine Father", "Robot Lizard"],
+      "allegiance": ["The Gang"],
+      "birthplace": "The Spikes",
+      "age": "Unknown",
+      "eye_color": "Basalt",
+      "species": "Mol",
+      "mastery": ["Engineering", "Circuitry", "Problem-solving", "Curiousity", "Systems"],
+      "color_pie": ["U", "B", "R"]
+    },
+    "quote": "I spent most of my life alone, observing things from a distance - it's easier to observe things that way - predictable. However, the data I collect when I'm with you guys, I think requires me to be more than a silent observer. Thank you - for letting me travel with you, and for assigning me your trust. In time, I intend to learn how to do the same for you, to the very best of my ability.",
+    "htmlFile": "page_content/characters/zedd.html",
     "type": "character"
   }
 }

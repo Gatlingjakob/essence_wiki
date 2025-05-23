@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!char) return;
 
       document.getElementById("char-name-header").textContent = char.name;
+      document.getElementById("char-quote").textContent = "\"" + char.quote +  "\"";
+      document.getElementById("char-quote-name").textContent = "- " + char.name;
       document.getElementById("char-name").textContent = char.name;
       document.getElementById("char-img").src = char.image;
 
