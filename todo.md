@@ -4,7 +4,9 @@
 
 prettify the key-names from json ("eye_color" is presented as "Eye Color")
 
-separate overlay from background
+make subheaders for article info box
+
+generate proper spacing between values 
 
 generally adjust margin, padding, border, font type, take insp from funger and wikipedia
 
@@ -12,6 +14,7 @@ full image view popup thingy on portraits (and later on other big images)
 
 - Make a ESSENCE banner/logo thing
 - Make an actual logo for the franchise - like an eye or brain or some mystical symbol that feels near to your heart
+- make overlay art
 
 - design top menu (put mini versions of the logo on both sides of the menu)
 
@@ -28,3 +31,4 @@ footer with list of all of the current category you're viewing or list of all ca
 nice to have:
 - perhaps a collapsable menus on the left side of each page in which you can get a folder structure view of all site data and articles
 - implement tags
+- maybe gallery at the bottom of article (like all pictures of a character)

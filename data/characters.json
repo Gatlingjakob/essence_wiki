@@ -23,17 +23,17 @@
     "image": "../media/images/character_portraits/iomaea_character_portrait.png",
     "info": {
       "pronouns": "She/Her",
-      "aliases": ["Ames", "The Short One", "The Girl Who Delved Too Deep"],
-      "relatives": ["Iomaea", "Spoiler: The Mistwalker", "Spoiler: Savia"],
+      "aliases": ["The Big One", "Mommy", "Spin-2-Win"],
+      "relatives": ["Amaelia", "Spoiler: Isamaea", "Iomaea's dad"],
       "allegiance": ["The Gang"],
-      "birthplace": "Unknown",
+      "birthplace": "The Badlands",
       "age": "26",
-      "eye_color": "Grey",
+      "eye_color": "Dark Green",
       "species": "Human",
-      "mastery": ["Healing", "Dark Arts", "Logic", "Dialectic", "Ethics"],
-      "color_pie": ["W", "U", "B"]
+      "mastery": ["Berserking", "Two-Handed Weapons", "Zingers", "Responsibility", "Revolution"],
+      "color_pie": ["W", "R"]
     },
-    "quote": "Iomaea is my sister from another mister lmao etc",
+    "quote": "Violence isn't always the only answer - except when it is.",
     "htmlFile": "page_content/characters/iomaea.html",
     "type": "character"
   }
