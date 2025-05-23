@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const infoBox = document.getElementById("fact-info");
       for (const [key, val] of Object.entries(fact.info)) {
         const p = document.createElement("p");
-        p.textContent = `${key}: ${val}`;
+        const valueText = Array.isArray(val) ? val.join(", ") : val;
+        p.textContent = `${key}: ${valueText}`;
         infoBox.appendChild(p);
       }
 

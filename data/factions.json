@@ -6,7 +6,7 @@
       "faction_systems": ["Democracy", "Technocracy", "Syndicate", "Collective"],
       "notable_members": ["Zedd", "Father of Machines"],
       "domain": ["Mol Tunnels", "The Spikes", "The Peaks to the East", "The Slope"],
-      "eye_color": "Grey",
+      "sites_of_interest": ["The Copper Nexus", "The Motherlode", "Tinkertown"],
       "species": "Mol",
       "professions_and_trades": ["Engineering", "Mining", "Geology", "Artifice", "Mechanics", "Smithing", "Computing", "Telecommunication", "Mycology"],
       "color_pie": ["U", "B", "G"]

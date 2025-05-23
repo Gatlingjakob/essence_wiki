@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const infoBox = document.getElementById("char-info");
       for (const [key, val] of Object.entries(char.info)) {
         const p = document.createElement("p");
-        p.textContent = `${key}: ${val}`;
+        const valueText = Array.isArray(val) ? val.join(", ") : val;
+        p.textContent = `${key}: ${valueText}`;
         infoBox.appendChild(p);
       }
 
