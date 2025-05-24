@@ -73,5 +73,20 @@
     "quote": "The Stewards of the observable world",
     "htmlFile": "page_content/factions/the_druids.html",
     "type": "faction"
+  },
+  "the_folk": {
+    "name": "The Folk",
+    "image": "../media/images/faction_portraits/the_folk_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Merchantalism", "Township", "Mutual Aid", "Commune"],
+      "notable_members": ["Your Mom"],
+      "domain": ["Hamlets and Townships", "Metropolis"],
+      "sites_of_interest": ["Metropolis", "The Fields"],
+      "professions_and_trades": ["Normie Shit"],
+      "color_pie": ["W", "G"]
+    },
+    "quote": "Just some regular ass dudes",
+    "htmlFile": "page_content/factions/the_folk.html",
+    "type": "faction"
   }
 }
