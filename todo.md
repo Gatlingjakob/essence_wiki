@@ -2,11 +2,13 @@
 
 - make it possible for an article's data to like a character to have multiple images for their portrait - if they do, make little tabs on top of the image so that you can cycle through them - those tabs need names/indicators as well (normal, overworld, portrait, bossfight, transformed, etc)
 
+little pictures next to name on the list on characters, factions, etc
+
+add page title based on article content name (character name on character for example)
+
 prettify the key-names from json ("eye_color" is presented as "Eye Color")
 
 make subheaders for article info box
-
-generate proper spacing between values 
 
 generally adjust margin, padding, border, font type, take insp from funger and wikipedia
 
