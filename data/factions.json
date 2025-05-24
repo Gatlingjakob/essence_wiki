@@ -1,7 +1,7 @@
 {
-  "mol": {
+  "the_mol": {
     "name": "The Mol",
-    "image": "../media/images/faction_portraits/mol_faction_portrait.png",
+    "image": "../media/images/faction_portraits/the_mol_faction_portrait.png",
     "info": {
       "faction_systems": ["Democracy", "Technocracy", "Syndicate", "Collective"],
       "notable_members": ["Zedd", "Father of Machines"],
@@ -12,7 +12,7 @@
       "color_pie": ["U", "B", "G"]
     },
     "quote": "An elusive folk indeed. Who knows what they're building down there...",
-    "htmlFile": "page_content/factions/mol.html",
+    "htmlFile": "page_content/factions/the_mol.html",
     "type": "faction"
   }
 }
