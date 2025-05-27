@@ -2,21 +2,19 @@
 
 - make it possible for an article's data to like a character to have multiple images for their portrait - if they do, make little tabs on top of the image so that you can cycle through them - those tabs need names/indicators as well (normal, overworld, portrait, bossfight, transformed, etc)
 
-little pictures next to name on the list on characters, factions, etc
+- little pictures next to name on the list on characters, factions, etc
 
-add page title based on article content name (character name on character for example)
+info box size scaling - something with inherited width, ask a bot
 
-prettify the key-names from json ("eye_color" is presented as "Eye Color")
+- add page title based on article content name (character name on character for example)
 
-make subheaders for article info box
+- prettify the key-names from json ("eye_color" is presented as "Eye Color")
 
-generally adjust margin, padding, border, font type, take insp from funger and wikipedia
+- make subheaders for article info box
 
-full image view popup thingy on portraits (and later on other big images)
+- support several pics for character portrait
 
-- Make a ESSENCE banner/logo thing
-- Make an actual logo for the franchise - like an eye or brain or some mystical symbol that feels near to your heart
-- make overlay art
+- full image view popup thingy on portraits (and later on other big images)
 
 - design top menu (put mini versions of the logo on both sides of the menu)
 
@@ -24,11 +22,18 @@ full image view popup thingy on portraits (and later on other big images)
 
 - on the top right a little audio player where you can toggle bg music - leave off as default!
 
-- Add another type of data - factions for example - factions.json, factions.html, faction.html
+- footer with list of all of the current category you're viewing or list of all categories or simply list of all entries in the wiki organized by category
 
-try to make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
+- Make a ESSENCE banner/logo thing
+- Make an actual logo for the franchise - like an eye or brain or some mystical symbol that feels near to your heart
+- make overlay art
 
-footer with list of all of the current category you're viewing or list of all categories or simply list of all entries in the wiki organized by category
+- generally adjust margin, padding, border, font type, take insp from funger and wikipedia
+
+- make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
+
+- make like little lore notes "embedded" on certain pages to make them look like literal notes and give them the courier text if its machine written, italic handwriting etc if so.
+generally just be creative with styling, shit like that is cool.
 
 nice to have:
 - perhaps a collapsable menus on the left side of each page in which you can get a folder structure view of all site data and articles
