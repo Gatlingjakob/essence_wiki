@@ -63,7 +63,7 @@
     "name": "The Druids",
     "image": "../media/images/faction_portraits/the_druids_faction_portrait.png",
     "info": {
-      "faction_systems": ["Communitarianism", "Stewardship", "Concord", "Council", "Assembly/Moot"],
+      "faction_systems": ["Communitarianism", "Stewardship", "Concord", "Council", "Assembly/Moot", "Anarcho-Primitivism", "Eco-Anarchism"],
       "notable_members": ["RE4 Merchant"],
       "domain": ["The Dead Marsh"],
       "sites_of_interest": ["Fountain of Knowledge", "The Dark Woods", "The Ancient Assembly Site", "The Forest Ruins"],
