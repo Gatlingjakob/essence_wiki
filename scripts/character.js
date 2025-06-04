@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       const char = data[slug];
       if (!char) return;
-
+      document.title = char.name;
       document.getElementById("char-name-header").textContent = char.name;
       document.getElementById("char-quote").textContent = "\"" + char.quote +  "\"";
       document.getElementById("char-quote-name").textContent = "- " + char.name;

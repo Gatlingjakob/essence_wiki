@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       const fact = data[slug];
       if (!fact) return;
-
+      document.title = fact.name;
       document.getElementById("fact-name-header").textContent = fact.name;
       // document.getElementById("fact-quote").textContent = "\"" + fact.quote +  "\"";
       // document.getElementById("fact-quote-name").textContent = "- " + fact.name;
