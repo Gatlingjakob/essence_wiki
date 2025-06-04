@@ -149,7 +149,7 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
-  .article-info-box {
+  .article-info-container {
       float: none;
       margin: 0 auto;
       width: 100%;
