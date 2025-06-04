@@ -5,8 +5,6 @@
 - restructure images for all data types like: character.images.profile_images og character.images.gallery_images etc
 - support several pics for character portrait
 
-- info box size scaling - something with inherited width, ask a bot
-
 - prettify the key-names from json ("eye_color" is presented as "Eye Color")
 
 - make subheaders for article info box

@@ -40,10 +40,11 @@ body{
 
 .article-info-container {
   background-color: #abb8e7;
-  width: 40%;
+  width: 450px;
   float: right;
   text-align: center;
   margin-left: 15px;
+  margin-bottom: 25px;
 }
 
 .article-info-box{
@@ -153,6 +154,7 @@ body{
       float: none;
       margin: 0 auto;
       width: 100%;
+      margin-bottom: 25px;
   }
 }
 
