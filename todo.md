@@ -2,6 +2,10 @@
 
 - make it possible for an article's data to like a character to have multiple images for their portrait - if they do, make little tabs on top of the image so that you can cycle through them - those tabs need names/indicators as well (normal, overworld, portrait, bossfight, transformed, etc)
 
+- restructure images for all data types like: character.images.profile_images og character.images.gallery_images etc
+
+- alphabetize characters, factions, should be easy enough algorithmically
+
 - little pictures next to name on the list on characters, factions, etc
 
 info box size scaling - something with inherited width, ask a bot
@@ -27,6 +31,7 @@ info box size scaling - something with inherited width, ask a bot
 - Make a ESSENCE banner/logo thing
 - Make an actual logo for the franchise - like an eye or brain or some mystical symbol that feels near to your heart
 - make overlay art
+- draw some more cartoony sketches of the characters, give them some charicature and personality, perhaps just portraits that can be used for the wiki and or game
 
 - generally adjust margin, padding, border, font type, take insp from funger and wikipedia
 
