@@ -19,26 +19,26 @@ body{
     color: #d6dbeb;
 }
 
-.character-name-header{
+.article-name-header{
   color: #d6dbeb;
   font-size: 40px;
   margin: 0px 0px 20px 0px;
 }
 
-.character-quote{
+.article-quote{
   color: #d6dbeb;
   font-size: 15px;
   margin: 20px 0px 20px 0px;
   font-style: italic;
 }
 
-.character-quote-name{
+.article-quote-name{
   color: #d6dbeb;
   font-size: 15px;
   margin: 0px 0px 20px 0px;
 }
 
-.article-info-box {
+.article-info-container {
   background-color: #abb8e7;
   width: 40%;
   float: right;
@@ -46,26 +46,26 @@ body{
   margin-left: 15px;
 }
 
-.character-info-box{
+.article-info-box{
   padding-top: 5%;
   padding-bottom: 5%;
   border: 1px solid #5e6da2;
 }
 
-.character-portrait-name{
+.article-portrait-name{
   background-color: #5e6da2;
   margin: 0;
   color: #d6dbeb;
   padding: 10px 0px 10px 0px;
 }
 
-.character-portrait-image {
+.article-portrait-image {
   max-width: 90%;
   height: auto;
   display: inline-block; /* optional but helps remove inline spacing */
 }
 
-.character-info p{
+.article-info p{
   margin: 0;
   color: #282c3b;
 }
@@ -157,7 +157,7 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
-  .character-name-header {
+  .article-name-header {
     display: none;
   }
 }
