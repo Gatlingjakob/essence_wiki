@@ -88,6 +88,70 @@ body{
   color: #edd7e5
 }
 
+.article-info-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.article-info-row {
+  display: table-row;
+}
+
+.article-info-cell {
+  display: table-cell;
+  border: 1px solid #5e6da2;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.article-info-key {
+  font-weight: bold;
+  text-align: left;
+  width: 40%;
+  color: #282c3b;
+}
+
+.article-info-value {
+  color: #282c3b;
+  text-align: left;
+}
+
+.spoiler-wrapper {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+.spoiler-box {
+  display: inline-block;
+  background-color: #444;
+  color: transparent;
+  width: 60px;
+  height: 1em;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.spoiler-box::after {
+  content: "Spoiler";
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 0.8em;
+}
+
+.spoiler-reveal {
+  color: #282c3b;
+}
+
 .background-overlay {
   position: fixed;
   top: 0;

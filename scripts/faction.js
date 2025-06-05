@@ -4,6 +4,7 @@ const slug = params.get("slug");
 document.addEventListener('DOMContentLoaded', () => {
   const currentPath = window.location.pathname;
   const isInPages = currentPath.includes('/pages/');
+
   const navbarPath = isInPages ? '../pages/navbar.html' : 'navbar.html';
   const factionsJsonPath = isInPages ? '../data/factions.json' : 'data/factions.json';
 
@@ -12,29 +13,82 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(html => {
       document.getElementById('navbar').innerHTML = html;
     })
-    .catch(err => {
-      console.error('Failed to load navbar:', err);
-    });
+    .catch(err => console.error('Failed to load navbar:', err));
 
   fetch(factionsJsonPath)
     .then(res => res.json())
     .then(data => {
       const fact = data[slug];
       if (!fact) return;
+
       document.title = fact.name;
       document.getElementById("fact-name-header").textContent = fact.name;
-      // document.getElementById("fact-quote").textContent = "\"" + fact.quote +  "\"";
+      //d ocument.getElementById("fact-quote").textContent = "\"" + fact.quote + "\"";
       // document.getElementById("fact-quote-name").textContent = "- " + fact.name;
       document.getElementById("fact-name").textContent = fact.name;
       document.getElementById("fact-img").src = fact.image;
 
       const infoBox = document.getElementById("fact-info");
+      infoBox.innerHTML = "";
+      const infoTable = document.createElement("div");
+      infoTable.className = "article-info-table";
+
       for (const [key, val] of Object.entries(fact.info)) {
-        const p = document.createElement("p");
-        const valueText = Array.isArray(val) ? val.join(", ") : val;
-        p.textContent = `${key}: ${valueText}`;
-        infoBox.appendChild(p);
+        const row = document.createElement("div");
+        row.className = "article-info-row";
+
+        const keyCell = document.createElement("div");
+        keyCell.className = "article-info-cell article-info-key";
+        keyCell.textContent = prettifyKey(key);
+
+        const valueCell = document.createElement("div");
+        valueCell.className = "article-info-cell article-info-value";
+
+        const values = Array.isArray(val) ? val : [val];
+        values.forEach(v => {
+          const line = document.createElement("div");
+
+          const isSpoiler = typeof v === "string" && v.startsWith("Spoiler:");
+          const displayText = isSpoiler ? v.replace("Spoiler: ", "") : v;
+          const slugified = slugify(displayText);
+          let link = null;
+
+          // Determine link destination
+          if (["notable_members"].includes(key)) {
+            link = `character.html?slug=${slugified}`;
+          } else if (["domain"].includes(key)) {
+            link = `location.html?slug=${slugified}`;
+          }
+
+          if (link) {
+            const anchor = document.createElement("a");
+            anchor.href = link;
+            anchor.textContent = displayText;
+            anchor.style.color = "#2b4f8c";
+            anchor.style.textDecoration = "underline";
+
+            if (isSpoiler) {
+              line.appendChild(createSpoiler(anchor));
+            } else {
+              line.appendChild(anchor);
+            }
+          } else {
+            if (isSpoiler) {
+              line.appendChild(createSpoiler(displayText));
+            } else {
+              line.textContent = displayText;
+            }
+          }
+
+          valueCell.appendChild(line);
+        });
+
+        row.appendChild(keyCell);
+        row.appendChild(valueCell);
+        infoTable.appendChild(row);
       }
+
+      infoBox.appendChild(infoTable);
 
       const articleHtmlPath = isInPages ? `../${fact.htmlFile}` : fact.htmlFile;
       return fetch(articleHtmlPath);
@@ -47,16 +101,52 @@ document.addEventListener('DOMContentLoaded', () => {
         generateTOC(container);
       }
     })
-    .catch(err => {
-      console.error('Failed to load faction content:', err);
-    });
+    .catch(err => console.error('Failed to load faction content:', err));
 });
 
+// Utility: Capitalize and replace underscores
+function prettifyKey(key) {
+  return key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+// Utility: Slugify text for use in URLs
+function slugify(text) {
+  return text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+}
+
+function createSpoiler(content) {
+  const wrapper = document.createElement("span");
+  wrapper.className = "spoiler-wrapper";
+
+  const placeholder = document.createElement("span");
+  placeholder.className = "spoiler-box";
+  placeholder.textContent = "Spoiler";
+
+  const reveal = document.createElement("span");
+  reveal.className = "spoiler-reveal";
+  reveal.style.display = "none";
+
+  if (typeof content === "string") {
+    reveal.textContent = content;
+  } else {
+    reveal.appendChild(content);
+  }
+
+  placeholder.addEventListener("click", () => {
+    placeholder.style.display = "none";
+    reveal.style.display = "inline";
+  });
+
+  wrapper.appendChild(placeholder);
+  wrapper.appendChild(reveal);
+  return wrapper;
+}
+
+// Table of contents (unchanged)
 function generateTOC(container) {
   const headings = container.querySelectorAll("h2, h3");
   const toc = document.getElementById("toc-list");
-
-  toc.innerHTML = ""; // Clear old content
+  toc.innerHTML = "";
 
   let h2Count = 0;
   let h3Count = 0;
