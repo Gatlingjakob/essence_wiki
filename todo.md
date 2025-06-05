@@ -31,3 +31,8 @@ nice to have:
 - perhaps a collapsable menus on the left side of each page in which you can get a folder structure view of all site data and articles
 - implement tags
 - maybe gallery at the bottom of article (like all pictures of a character)
+
+right now i have the following code for dynamically populating an infobox on my wiki-type static website.
+i want each info type to be divided into columns, where the key goes on the left, and the value(s) go on the right - with each value going on a line of its own. i also want a thin border around all sides of both columns. 
+i also want to add a spoiler tag on top of certain values, but im not sure what the smartest way to do so would be, seeing as im probably gonna want to put spoiler tags on things that exist in different layers of different types of data objects.
+i also want a way to prettify the keys, so that for example "eye_color" is printed as "Eye Color" on the page.
