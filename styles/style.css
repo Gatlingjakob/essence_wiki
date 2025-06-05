@@ -48,8 +48,6 @@ body{
 }
 
 .article-info-box{
-  padding-top: 5%;
-  padding-bottom: 5%;
   border: 1px solid #5e6da2;
 }
 
@@ -60,15 +58,30 @@ body{
   padding: 10px 0px 10px 0px;
 }
 
+.article-portrait-description{
+  background-color: #5e6da2;
+  margin: 0;
+  margin-top: -4px;
+  color: #d6dbeb;
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+}
+
 .article-portrait-image {
   max-width: 90%;
   height: auto;
   display: inline-block; /* optional but helps remove inline spacing */
+
+}
+
+.article-info{
+  padding: 5% 2.5% 5% 2.5%;
 }
 
 .article-info p{
   margin: 0;
   color: #282c3b;
+  padding-bottom: 5px;
 }
 
 .article-content-container{

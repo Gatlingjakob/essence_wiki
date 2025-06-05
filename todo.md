@@ -6,7 +6,6 @@
 - make it possible for an article's data to like a character to have multiple images for their portrait - if they do, make little tabs on top of the image so that you can cycle through them - those tabs need names/indicators as well (normal, overworld, portrait, bossfight, transformed, etc)
 
 - prettify the key-names from json ("eye_color" is presented as "Eye Color")
-- make subheaders for article info box
 
 - design top menu (put mini versions of the logo on both sides of the menu)
 
