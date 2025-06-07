@@ -18,6 +18,8 @@
 - make overlay art
 - draw some more cartoony sketches of the characters, give them some charicature and personality, perhaps just portraits that can be used for the wiki and or game
 
+- find fonts (for headers and paragraphs)
+
 - make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
 
 - make like little lore notes "embedded" on certain pages to make them look like literal notes and give them the courier text if its machine written, italic handwriting etc if so.

@@ -39,6 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
           const letterHeader = document.createElement('h2');
           letterHeader.textContent = currentLetter;
           list.appendChild(letterHeader);
+          
+          const hr = document.createElement('hr');
+          hr.style.border = 'none';
+          hr.style.borderTop = '1px solid #d6dbeb';
+          list.appendChild(hr);
         }
 
         const container = document.createElement('div');

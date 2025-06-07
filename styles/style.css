@@ -218,6 +218,22 @@ body{
   border: 1px solid #5e6da2;
 }
 
+.list-page-header{
+  color: #d6dbeb;
+}
+
+.content-list, .content-list a {
+  color: #d6dbeb;
+}
+
+.content-list h2 {
+  margin: 0;
+}
+
+.content-list img {
+  margin-top: 5px;
+  margin-top: 5px;
+}
 
 /* Responsive */
 @media only screen and (max-width: 767px) {

@@ -36,6 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
           const letterHeader = document.createElement('h2');
           letterHeader.textContent = currentLetter;
           list.appendChild(letterHeader);
+          
+          const hr = document.createElement('hr');
+          hr.style.border = 'none';
+          hr.style.borderTop = '1px solid #d6dbeb';
+          list.appendChild(hr);
         }
 
         // Create container for image + name
@@ -52,6 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
         img.style.objectFit = 'cover';
         img.style.borderRadius = '4px';
         img.style.marginRight = '10px';
+       // img.style.marginTop = '15px';
+       // img.style.marginBottom = '15px';
 
         const link = document.createElement('a');
         link.href = `character.html?slug=${slug}`;
