@@ -1,5 +1,38 @@
-body{
+body {
+  font-family: 'Merriweather', serif;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.essence-index-header{
+  font-size: 70px;
+  margin-bottom: 30px !important;
+  color: #d6dbeb;
+  text-transform: uppercase;
+}
+
+.index-page{
+    margin: 20px auto; /* center container horizontally on the page */
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+}
+
+.index-page-item{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* THIS centers children horizontally */
+}
+
+.essence-pic{
+  max-width: 33%;
+  height: auto;
 }
 
 .navbar{
@@ -178,28 +211,6 @@ body{
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Optional depth */
   background-color: rgba(98, 97, 114, 0.95);
-}
-
-.index-page{
-    margin: 20px auto; /* center container horizontally on the page */
-    display: flex;
-    flex-direction: column; /* stack items vertically */
-}
-
-.index-page-item{
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* THIS centers children horizontally */
-}
-
-.essence-index-header{
-  font-size: 65px;
-}
-
-.essence-pic{
-  max-width: 30%;
-  height: auto;
 }
 
 .table-of-contents-container{
