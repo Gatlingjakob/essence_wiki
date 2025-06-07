@@ -2,7 +2,7 @@ body{
   margin: 0;
 }
 
-.navbar, .navbar-index{
+.navbar{
     background-color: #5e6da2;
     height: 100px;
     text-align: center;
@@ -12,11 +12,14 @@ body{
     font-size: 25px;
 }
 
+.navbar span{
+  color: #d6dbeb;
+}
+
 .navbar a {
   margin-right: 10px; /* adds space to the right of each link */
   margin-left: 10px; /* adds space to the right of each link */
-  
-    color: #d6dbeb;
+  color: #d6dbeb;
 }
 
 .article-name-header{
@@ -260,5 +263,11 @@ body{
 @media only screen and (max-width: 767px) {
   .essence-pic{
     max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar a{
+    font-size: 20px;
   }
 }
