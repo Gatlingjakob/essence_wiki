@@ -1,8 +1,8 @@
 # Todo
 Characters
 Factions
-World
 Story
+World
 Map
 
 - add story pages - list of chapters, chapters, list of writing thoughts, themes, etc
@@ -30,6 +30,8 @@ Map
 
 - make like little lore notes "embedded" on certain pages to make them look like literal notes and give them the courier text if its machine written, italic handwriting etc if so.
 generally just be creative with styling, shit like that is cool.
+
+- make a page for "the golden donut" under deities
 
 nice to have:
 - perhaps a collapsable menus on the left side of each page in which you can get a folder structure view of all site data and articles
