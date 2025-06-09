@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;  /* horizontal centering */
     align-items: center;      /* vertical centering */
     font-size: 25px;
+    flex-wrap: nowrap;      /* Prevent wrapping */
+    overflow-x: auto;       /* Enable horizontal scrolling */
+    overflow-y: hidden;     /* Optional: hide vertical scrollbar */
+    white-space: nowrap;    /* For inline content (like text or inline-blocks) */
 }
 
 .essence-navbar-header{
