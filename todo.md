@@ -1,9 +1,34 @@
 # Todo
-Characters
+navbar structure/order:
+
+Characters 
+    People
+    Creatures (turtles, hogs, owls, foxes, squirrels, just a list of your favorite animals)
+    Entities
+
 Factions
-Story
-World
+
+Story 
+    Chapters
+    Abstract
+    Themes
+    Notes
+
+World 
+    Creation Myth   
+    Metaphysics
+    Ontology
+    Epistemology
+    Items
+        Artifacts
+        Minerals
+        Plants
+
+
 Map
+    World Map
+    Locations
+    Maps
 
 - add story pages - list of chapters, chapters, list of writing thoughts, themes, etc
 - restructure images for all data types like: character.images.profile_images og character.images.gallery_images etc
@@ -11,20 +36,19 @@ Map
 - full image view popup thingy on portraits (and later on other big images)
 - make it possible for an article's data to like a character to have multiple images for their portrait - if they do, make little tabs on top of the image so that you can cycle through them - those tabs need names/indicators as well (normal, overworld, portrait, bossfight, transformed, etc)
 
-- top left essence header logo
 - on the top right a little audio player where you can toggle bg music - leave off as default!
 - dropdowns on top menu - only after youve made subcategories i suppose
 
 - footer with list of all of the current category you're viewing or list of all categories or simply list of all entries in the wiki organized by category
 
-- Make a ESSENCE banner/logo thing
+- Make an ESSENCE banner/logo thing (for navbar + frontpage)
 - Make an actual logo for the franchise - like an eye or brain or some mystical symbol that feels near to your heart
 - make overlay art
 - fix background overlay
 - draw some more cartoony sketches of the characters, give them some charicature and personality, perhaps just portraits that can be used for the wiki and or game
 - background texture for navbar
 
-- find fonts (for headers and paragraphs)
+- find fonts (for headers and paragraphs) - the ones you have now are ok, but when it feels like its all coming together, try and see if you can find ones that "just feel right"
 
 - make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
 
