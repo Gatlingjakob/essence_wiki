@@ -24,7 +24,6 @@ World
         Minerals
         Plants
 
-
 Map
     World Map
     Locations
