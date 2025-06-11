@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const currentPath = window.location.pathname;
   const isInPages = currentPath.includes('/pages/');
-  const charactersJsonPath = isInPages ? '../data/characters.json' : 'data/characters.json';
+  const creaturesJsonPath = isInPages ? '../data/creatures.json' : 'data/creatures.json';
   const navbarPath = isInPages ? '../pages/navbar.html' : 'navbar.html';
 
   fetch(navbarPath)
@@ -13,20 +13,20 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error('Failed to load navbar:', err);
     });
 
-  fetch(charactersJsonPath)
+  fetch(creaturesJsonPath)
     .then(res => res.json())
     .then(data => {
-      const list = document.getElementById('character-list');
+      const list = document.getElementById('creature-list');
 
-      // Filter and sort characters by name
-      const characters = Object.entries(data)
-        .filter(([_, item]) => item.type === 'character')
+      // Filter and sort creatures by name
+      const creatures = Object.entries(data)
+        .filter(([_, item]) => item.type === 'creature')
         .sort(([, a], [, b]) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
 
       let currentLetter = '';
 
-      characters.forEach(([slug, char]) => {
-        const firstLetter = char.name[0].toUpperCase();
+      creatures.forEach(([slug, crea]) => {
+        const firstLetter = crea.name[0].toUpperCase();
 
         // Add letter header if new section
         if (firstLetter !== currentLetter) {
@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
         container.style.marginBottom = '8px';
 
         const img = document.createElement('img');
-        img.src = char.image;
-        img.alt = `${char.name} portrait`;
+        img.src = crea.image;
+        img.alt = `${crea.name} portrait`;
         img.style.width = '40px';
         img.style.height = '40px';
         img.style.objectFit = 'cover';
@@ -59,8 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
        // img.style.marginBottom = '15px';
 
         const link = document.createElement('a');
-        link.href = `character.html?slug=${slug}`;
-        link.textContent = char.name;
+        link.href = `creature.html?slug=${slug}`;
+        link.textContent = crea.name;
 
         container.appendChild(img);
         container.appendChild(link);
@@ -69,6 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     .catch(err => {
-      console.error('Failed to load characters.json', err);
+      console.error('Failed to load creatures.json', err);
     });
 });

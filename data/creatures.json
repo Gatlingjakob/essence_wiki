@@ -1,0 +1,18 @@
+{
+  "moonchild": {
+    "name": "Moonchild",
+    "image": "../media/images/creature_portraits/moonchild_creature_portrait.png",
+    "info": {
+      "pronouns": "It/They",
+      "aliases": ["Children of the Moon", "Mistbabes", "Milk-gowned tykes"],
+      "habitat": ["The Forest of the Druids", "Wherever the rays of the moon can reach"],
+      "eye_color": "Azure mist",
+      "mastery": ["Healing", "Divination", "Mutual Aid", "Restoration", "Therapy", "Reflection"],
+      "color_pie": ["W", "U", "G"]
+    },
+    "quote": "They are peculiar little creatures, but kind in nature. They seem to prefer being left to their own devices, but I have on occasion had the pleasure of partaking in one of their festivals at the foot of the fountain of knowledge. They spent the entire night joyfully dancing around me, while one of the more shy ones made me a braid of flowers.",
+    "quotee": "Berulf",
+    "htmlFile": "page_content/creatures/moonchild.html",
+    "type": "creature"
+  }
+}

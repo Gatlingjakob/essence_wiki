@@ -29,6 +29,10 @@ Map
     Locations
     Maps
 
+- menu mouseover dropdown - (creatures under characters to begin with)
+
+- missing image image and handlings
+
 - add story pages - list of chapters, chapters, list of writing thoughts, themes, etc
 - restructure images for all data types like: character.images.profile_images og character.images.gallery_images etc
 - support several pics for character portrait
@@ -49,8 +53,6 @@ Map
 
 - find fonts (for headers and paragraphs) - the ones you have now are ok, but when it feels like its all coming together, try and see if you can find ones that "just feel right"
 
-- make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
-
 - make like little lore notes "embedded" on certain pages to make them look like literal notes and give them the courier text if its machine written, italic handwriting etc if so.
 generally just be creative with styling, shit like that is cool.
 
@@ -60,6 +62,8 @@ nice to have:
 - perhaps a collapsable menus on the left side of each page in which you can get a folder structure view of all site data and articles
 - implement tags
 - maybe gallery at the bottom of article (like all pictures of a character)
+- make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
+
 
 
 robot explanations:
