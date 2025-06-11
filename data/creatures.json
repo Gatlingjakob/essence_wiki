@@ -14,5 +14,21 @@
     "quotee": "Berulf",
     "htmlFile": "page_content/creatures/moonchild.html",
     "type": "creature"
+  },
+  "croc": {
+    "name": "Croc",
+    "image": "../media/images/creature_portraits/croc_creature_portrait.png",
+    "info": {
+      "pronouns": "It",
+      "aliases": ["An Eepy"],
+      "habitat": ["Riverbeds", "Rivers", "Beds"],
+      "eye_color": "Unknown",
+      "mastery": ["Eeping", "Tacos", "Bass Guitar"],
+      "color_pie": ["U", "G"]
+    },
+    "quote": "A-Ha! You were eepy!",
+    "quotee": "Bunny",
+    "htmlFile": "page_content/creatures/croc.html",
+    "type": "creature"
   }
 }

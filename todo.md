@@ -29,6 +29,7 @@ Map
     Locations
     Maps
 
+-fix quotee on creature, apply same changes everywhere else
 - menu mouseover dropdown - (creatures under characters to begin with)
 
 - missing image image and handlings
