@@ -1,35 +1,6 @@
 # Todo
-navbar structure/order:
 
-Characters 
-    People
-    Creatures (turtles, hogs, owls, foxes, squirrels, just a list of your favorite animals)
-    Entities
-
-Factions
-
-Story 
-    Chapters
-    Abstract
-    Themes
-    Notes
-
-World 
-    Creation Myth   
-    Metaphysics
-    Ontology
-    Epistemology
-    Items
-        Artifacts
-        Minerals
-        Plants
-
-Map
-    World Map
-    Locations
-    Maps
-
--fix quotee on creature, apply same changes everywhere else
+- fix quotee on creature, apply same changes everywhere else
 - menu mouseover dropdown - (creatures under characters to begin with)
 
 - missing image image and handlings
@@ -66,9 +37,32 @@ nice to have:
 - make a style guide - i.e. set 5-6 colors main colors as variables and then just use those where applicable
 
 
+navbar structure/order:
 
-robot explanations:
-right now i have the following code for dynamically populating an infobox on my wiki-type static website.
-i want each info type to be divided into columns, where the key goes on the left, and the value(s) go on the right - with each value going on a line of its own. i also want a thin border around all sides of both columns. 
-i also want to add a spoiler tag on top of certain values, but im not sure what the smartest way to do so would be, seeing as im probably gonna want to put spoiler tags on things that exist in different layers of different types of data objects.
-i also want a way to prettify the keys, so that for example "eye_color" is printed as "Eye Color" on the page.
+Characters 
+    People
+    Creatures (turtles, hogs, owls, foxes, squirrels, just a list of your favorite animals)
+    Entities
+
+Factions
+
+Story 
+    Chapters
+    Abstract
+    Themes
+    Notes
+
+World 
+    Creation Myth   
+    Metaphysics
+    Ontology
+    Epistemology
+    Items
+        Artifacts
+        Minerals
+        Plants
+
+Map
+    World Map
+    Locations
+    Maps
