@@ -39,19 +39,6 @@ nice to have:
 
 navbar structure/order:
 
-Characters 
-    People
-    Creatures (turtles, hogs, owls, foxes, squirrels, just a list of your favorite animals)
-    Entities
-
-Factions
-
-Story 
-    Chapters
-    Abstract
-    Themes
-    Notes
-
 World 
     Creation Myth   
     Metaphysics
@@ -61,6 +48,28 @@ World
         Artifacts
         Minerals
         Plants
+    Magic
+    Skills
+    Technologies
+    Factions
+    Documents
+    Locations
+
+Characters (conscious beings)
+    People
+    Creatures (turtles, hogs, owls, foxes, squirrels, just a list of your favorite animals)
+    Entities
+    Factions
+    
+Story 
+    Chapters
+    Abstract
+    Themes
+    Notes
+    Lore
+    Timeline
+    Arcs
+    Documents
 
 Map
     World Map
