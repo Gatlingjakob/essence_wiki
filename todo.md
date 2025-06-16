@@ -3,7 +3,7 @@
 - fix quotee on creature, apply same changes everywhere else
 - menu mouseover dropdown - (creatures under characters to begin with)
 
-- missing image image and handlings
+- missing image and handling
 
 - add story pages - list of chapters, chapters, list of writing thoughts, themes, etc
 - restructure images for all data types like: character.images.profile_images og character.images.gallery_images etc
