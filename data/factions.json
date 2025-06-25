@@ -11,6 +11,7 @@
       "color_pie": ["U", "B", "G"]
     },
     "quote": "An elusive folk indeed. Who knows what they're building down there...",
+    "quotee": "Tom Wambsgans Waits",
     "htmlFile": "page_content/factions/the_mol.html",
     "type": "faction"
   },
@@ -26,6 +27,7 @@
       "color_pie": ["W" ,"R", "G"]
     },
     "quote": "The Funger Games",
+    "quotee": "John Pork",
     "htmlFile": "page_content/factions/the_clans.html",
     "type": "faction"
   },
@@ -40,7 +42,8 @@
       "professions_and_trades": ["Discussion", "Research", "Science", "Debate", "Magic", "Astronomy", "Biology", "Physics", "Archiving", "Philosophy", "Logic", "Negotiation", "Law"],
       "color_pie": ["U"]
     },
-    "quote": "The Funger Games",
+    "quote": "A bunch of rich smartasses",
+    "quotee": "S O M E O N E",
     "htmlFile": "page_content/factions/the_clans.html",
     "type": "faction"
   },
@@ -51,11 +54,12 @@
       "faction_systems": ["Anarchy", "Liberty", "Syndicalism"],
       "notable_members": ["RE4 Merchant"],
       "domain": ["The Dead Marsh"],
-      "sites_of_interest": ["School of the Dead", "The Underbelly", "The Death Pits"],
+      "sites_of_interest": ["School of the Dead", "The Underbelly", "The Death Pits" , "The Hole in the World"],
       "professions_and_trades": ["Necromancy", "Biology", "Surgery", "Dark Arts", "Reanimation", "Teleporting Consciousness or whatever you wanna call it"],
       "color_pie": ["U", "B", "G"]
     },
     "quote": "Will cost you an arm and a leg, but they offer a selection of quality limbs to replace them with.",
+    "quotee": "Unnamed nomad merchant",
     "htmlFile": "page_content/factions/the_dead.html",
     "type": "faction"
   },
@@ -71,6 +75,7 @@
       "color_pie": ["W", "G"]
     },
     "quote": "The Stewards of the observable world",
+    "quotee": "Moonchild",
     "htmlFile": "page_content/factions/the_druids.html",
     "type": "faction"
   },
@@ -86,7 +91,104 @@
       "color_pie": ["W", "G"]
     },
     "quote": "Just some regular ass dudes",
+    "quotee": "Some regular ass dude",
     "htmlFile": "page_content/factions/the_folk.html",
+    "type": "faction"
+  },
+  "the_gang": {
+    "name": "The Gang",
+    "image": "../media/images/faction_portraits/the_gang_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Mutual Aid", "Communitarianism", "Anarchism", "Socialism", "Democracy", "Dialectic"],
+      "notable_members": ["Berulf", "Laenwyn", "Amaelia", "Iomaea", "Zedd"],
+      "domain": ["The World"],
+      "sites_of_interest": ["Secret Hideout"],
+      "professions_and_trades": ["Adventuring", "Mutual Aid", "Dialectic", "Vigilantism", "Essence Mediation"],
+      "color_pie": ["W", "U", "B", "R", "G"]
+    },
+    "quote": "Curse those meddling kids! If only I had worn one more mask when having my identity forcefully revealed, I would have gotten away with my nefarious scheme!",
+    "quotee": "Asbomer",
+    "htmlFile": "page_content/factions/the_gang.html",
+    "type": "faction"
+  },
+  "the_inquisition": {
+    "name": "The Inquisition",
+    "image": "../media/images/faction_portraits/the_inquisition_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Authority", "Police", "Coercion", "Theocracy", "Law"],
+      "notable_members": ["Illandra"],
+      "domain": ["Seat of the Orthodoxy", "Asbomer's Castle"],
+      "sites_of_interest": ["Sanctum of the Essence", "Inquisition Dungeons"],
+      "professions_and_trades": ["Punishment", "Torture", "Spying", "Interrogation", "Investigation", "Inquisition"],
+      "color_pie": ["W", "B", "R"]
+    },
+    "quote": "Spooky scary human people",
+    "quotee": "Some poor bastard",
+    "htmlFile": "page_content/factions/the_inquisition.html",
+    "type": "faction"
+  },
+  "the_islandfolk": {
+    "name": "The Islandfolk",
+    "image": "../media/images/faction_portraits/the_islandfolk_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Unknown"],
+      "notable_members": ["Spoiler: The Mistwalker"],
+      "domain": ["The Forbidden Isles"],
+      "sites_of_interest": ["The Ruins"],
+      "professions_and_trades": ["Magick", "Mysticism", "Alchemy", "Ancient Science", "Animism", "Secrecy"],
+      "color_pie": ["W", "U"]
+    },
+    "quote": "An elusive folk - at this point no one knows if all we know about them are simply rumours.",
+    "quotee": "Lorekeeper of the folk",
+    "htmlFile": "page_content/factions/the_islandfolk.html",
+    "type": "faction"
+  },
+  "the_monarchy": {
+    "name": "The Monarchy",
+    "image": "../media/images/faction_portraits/the_monarchy_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Monarchy", "Autocracy", "Aristocracy", "Oligarchy", "Theocracy", "Authority", "Militarism"],
+      "notable_members": ["Asbomer", "Savia", "The Royal Bulwark", "Illandra"],
+      "domain": ["Seat of the Orthodoxy", "Asbomer's Castle"],
+      "sites_of_interest": ["Sanctum of the Essence", "Asbomer's Castle"],
+      "professions_and_trades": ["Propaganda", "Control", "Mass Manipulation", "Military", "Coercion", "Oppression"],
+      "color_pie": ["W", "B"]
+    },
+    "quote": "Kings and queens and guillotines",
+    "quotee": "Illandra",
+    "htmlFile": "page_content/factions/the_monarchy.html",
+    "type": "faction"
+  },
+  "the_orthodoxy": {
+    "name": "The Orthodoxy",
+    "image": "../media/images/faction_portraits/the_orthodoxy_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Theocracy", "Monarchy", "Autocracy", "Aristocracy", "Oligarchy", "Authority", "Militarism"],
+      "notable_members": ["Asbomer", "Illandra"],
+      "domain": ["Seat of the Orthodoxy", "Asbomer's Castle"],
+      "sites_of_interest": ["Sanctum of the Essence", "Asbomer's Castle", "The Hole in the World"],
+      "professions_and_trades": ["Propaganda", "Control", "Mass Manipulation", "Military", "Coercion", "Oppression", "Theology"],
+      "color_pie": ["W", "B", "R"]
+    },
+    "quote": "I suppose blind faith might seem favorable to those whose only alternative is to stare into the ever watchful eye of oppression / the indifferent gaze of the abyss.",
+    "quotee": "The Wise Witch",
+    "htmlFile": "page_content/factions/the_orthodoxy.html",
+    "type": "faction"
+  },
+  "the_skinless": {
+    "name": "The Skinless",
+    "image": "../media/images/faction_portraits/the_skinless_faction_portrait.png",
+    "info": {
+      "faction_systems": ["Cult"],
+      "notable_members": ["Nobody", "The Robed Figure"],
+      "domain": ["The Husk"],
+      "sites_of_interest": ["The Husk"],
+      "professions_and_trades": ["Surgery", "Blood Magic", "Nerve Manipulation", "Grafting", "Synapsomancy"],
+      "color_pie": ["B", "R"]
+    },
+    "quote": "Abandon all hope ye who enter here etc",
+    "quotee": "Sign on the forest road close to The Husk",
+    "htmlFile": "page_content/factions/the_husk.html",
     "type": "faction"
   }
 }

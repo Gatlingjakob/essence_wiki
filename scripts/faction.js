@@ -111,7 +111,7 @@ function prettifyKey(key) {
 
 // Utility: Slugify text for use in URLs
 function slugify(text) {
-  return text.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+  return text.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
 }
 
 function createSpoiler(content) {
